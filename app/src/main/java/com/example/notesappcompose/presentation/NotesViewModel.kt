@@ -23,9 +23,6 @@ class NotesViewModel(
 ) : ViewModel() {
 
     private val isSortedByDateAdded = MutableStateFlow(true)
-//     val isSortedByDateAdded = StateFlow(true)
-//         get() =_isSortedByDateAdded
-
     private var notes =
         isSortedByDateAdded.flatMapLatest { sort ->
             if (sort) {
