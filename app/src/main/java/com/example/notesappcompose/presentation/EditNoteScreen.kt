@@ -55,12 +55,12 @@ fun EditNoteScreen(
 //                    description = state.description.value
 //                ))
 
-                onEvent(NotesEvent.UpdateNote(
-                   note.copy(
-                       title = title,
-                       description = description
-                   )
-                ))
+//                onEvent(NotesEvent.UpdateNote(
+//                   note.copy(
+//                       title = title,
+//                       description = description
+//                   )
+//                ))
                 Log.d("TAG", "EditNoteScreen: $note ")
                 navHostController.popBackStack()
             }) {
