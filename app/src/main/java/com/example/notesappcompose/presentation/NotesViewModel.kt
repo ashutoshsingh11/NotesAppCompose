@@ -85,15 +85,4 @@ class NotesViewModel(
 
         }
     }
-//     var showDialog by  mutableStateOf(false)
-//    fun onDismissDialog(){   // try using viewModelScope
-//        showDialog = false
-//    }
-//    fun onShowDialog(){
-//        showDialog = true
-//    }
-
-
-
-
 }
