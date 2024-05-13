@@ -69,9 +69,7 @@ class NotesViewModel(
                         description = mutableStateOf("")
                     )
                 }
-//                viewModelScope.launch {
-//                    dao.updateNote(note)
-//                }
+
             }
 
             is NotesEvent.UpdateNote-> {
